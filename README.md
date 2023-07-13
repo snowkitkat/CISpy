@@ -1,8 +1,10 @@
 # CISpy
 
+### DISCLAIMER: THIS IS STILL BEING WORKED ON. IT MAY BE FILLED WITH BUGS. REPORT ANY BUGS TO ISSUES TAB.
+
 A plugin for SCP:SL that adds a chaos spy into every MTF wave.
 
-Compatible with [SCP-035](https://github.com/Cyanox62/scp035/tree/exiled).
+Planned Port: Compatible with [SCP-035](https://github.com/Cyanox62/scp035/tree/exiled).
 
 # Installation
 
@@ -20,3 +22,8 @@ Place the "CISpy.dll" file in your Plugins folder.
 | cis_spawn_chance | Integer | 100 | The chance for a CISpy to spawn in an MTF spawn wave. (Keep as 100 unless you don't want the spy guaranteed with each wave) |
 | cis_guard_chance | Integer | 15 | The chance for a facility guard to spawn as a spy at the start of the round. (Set to zero for no spy as guard) |
 | cis_spy_roles | Integer List | 11, 13 | Roles that can spawn as a spy. |
+
+# Commands
+
+| Command        | Value Type | Description  |
+| cispy | PlayerID | Changes the player into a CISpy if they are a NTF Private or Sergeant. |
