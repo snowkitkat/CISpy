@@ -4,6 +4,7 @@ using MEC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Exiled.API.Features.Items;
 using Exiled.Events.Patches.Generic;
 using PlayerRoles;
 using UnityEngine;
@@ -26,7 +27,15 @@ namespace CISpy
 						if (player.Items.ElementAt(i).Type == ItemType.GrenadeHE)
 						{
 							player.RemoveItem(player.Items.ElementAt(i));
+							player.AddItem(ItemType.GrenadeFlash);
 						}
+					}
+				}
+				foreach (Item items in player.Items)
+				{
+					if (items.Type == ItemType.KeycardNTFLieutenant)
+					{
+						player.RemoveItem(items);
 					}
 				}
 				player.AddItem(ItemType.KeycardChaosInsurgency);

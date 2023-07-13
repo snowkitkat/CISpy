@@ -16,7 +16,7 @@ namespace CISpy
 		private List<Player> ffPlayers = new List<Player>();
 
 		private bool isDisplayFriendly = false;
-		//private bool isDisplaySpy = false;
+		private bool isDisplaySpy = false;
 
 		private Random rand = new Random();
 
@@ -144,11 +144,11 @@ namespace CISpy
 			{
 				ev.IsAllowed = false;
 			}
-			/*else if (spies.ContainsKey(ev.Attacker) && spies.ContainsKey(ev.Player))
+			else if (spies.ContainsKey(ev.Attacker) && spies.ContainsKey(ev.Player))
 			{
 				if (!isDisplaySpy)
 				{
-					ev.Attacker.Broadcast(3, "You are shooting another <b><color=\"green\">CISpy!</color></b>", false);
+					ev.Attacker.Broadcast(3, "You are shooting another <b><color=\"green\">CISpy!</color></b>");
 					isDisplaySpy = true;
 				}
 				Timing.CallDelayed(3f, () =>
@@ -156,7 +156,7 @@ namespace CISpy
 					isDisplaySpy = false;
 				});
 				ev.Amount = 0;
-			}*/ 
+			}
 		}
 
 		public void OnShoot(ShootingEventArgs ev)

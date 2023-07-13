@@ -56,35 +56,32 @@
     <Reference Include="Caress">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Caress.dll</HintPath>
     </Reference>
-    <Reference Include="CommandSystem.Core">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\CommandSystem.Core.dll</HintPath>
-    </Reference>
     <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\CommandSystem.Core.dll</HintPath>
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\CommandSystem.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.API, Version=7.1.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.API.dll</HintPath>
+    <Reference Include="Exiled.API, Version=7.2.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.API.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CreditTags, Version=7.1.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.CreditTags.dll</HintPath>
+    <Reference Include="Exiled.CreditTags, Version=7.2.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.CreditTags.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomItems, Version=7.1.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.CustomItems.dll</HintPath>
+    <Reference Include="Exiled.CustomItems, Version=7.2.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.CustomItems.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomRoles, Version=7.1.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.CustomRoles.dll</HintPath>
+    <Reference Include="Exiled.CustomRoles, Version=7.2.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.CustomRoles.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Events, Version=7.1.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.Events.dll</HintPath>
+    <Reference Include="Exiled.Events, Version=7.2.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.Events.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Loader, Version=7.1.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.Loader.dll</HintPath>
+    <Reference Include="Exiled.Loader, Version=7.2.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.Loader.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Permissions, Version=7.1.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.Permissions.dll</HintPath>
+    <Reference Include="Exiled.Permissions, Version=7.2.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.Permissions.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.Updater, Version=3.1.2.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\Exiled.Updater.dll</HintPath>
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\Exiled.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Steamworks.Win64">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
@@ -108,17 +105,11 @@
     <Reference Include="netstandard">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="NorthwoodLib">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\NorthwoodLib.dll</HintPath>
-    </Reference>
     <Reference Include="NorthwoodLib, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\NorthwoodLib.dll</HintPath>
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\NorthwoodLib.dll</HintPath>
     </Reference>
-    <Reference Include="PluginAPI">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\PluginAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="PluginAPI, Version=12.0.0.0, Culture=neutral, processorArchitecture=Amd64">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\PluginAPI.dll</HintPath>
+    <Reference Include="PluginAPI, Version=13.1.0.0, Culture=neutral, processorArchitecture=Amd64">
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\PluginAPI.dll</HintPath>
     </Reference>
     <Reference Include="Pooling">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Pooling.dll</HintPath>
@@ -443,11 +434,8 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="YamlDotNet">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\YamlDotNet.dll</HintPath>
-    </Reference>
     <Reference Include="YamlDotNet, Version=11.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
-      <HintPath>..\packages\EXILED.7.1.0\lib\net48\YamlDotNet.dll</HintPath>
+      <HintPath>..\packages\EXILED.7.2.0\lib\net48\YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="zxing">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\zxing.dll</HintPath>
@@ -455,6 +443,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\SpyData.cs" />
+    <Compile Include="Commands\SpyCommand.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="EventHandlers.cs" />
     <Compile Include="Logic.cs" />
@@ -462,6 +451,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
