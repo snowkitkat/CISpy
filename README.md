@@ -25,6 +25,6 @@ Place the "CISpy.dll" file in your Plugins folder.
 
 # Commands
 
-| Command        | Permission Required | Description  |
-| :-------------: | :-----:| :-----------------|
-| cispy (playerid) | snow.makespy | Changes the player into a CISpy if they are a NTF Private or Sergeant. |
+| Command        | Input | Permission Required | Description  |
+| :-------------: | :-----: | :-----:| :-----------------|
+| cispy | PlayerID | snow.makespy | Changes the player into a CISpy if they are a NTF Private or Sergeant. |
